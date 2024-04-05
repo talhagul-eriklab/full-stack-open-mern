@@ -1,17 +1,16 @@
 <h1>Blog and Note Saving and Listing Application</h1>
-<p>This is a web application developed using React, Express.js, MongoDB, Mongoose, Redux Toolkit, React Router DOM, React Bootstrap, Axios, Bcrypt, and JSON Web Token (JWT). It allows users to create and list blogs and notes. Users can log in to create notes and blogs, which are then associated with their accounts. In the user panel, users can see the notes and blogs they have created. Only the users who created the notes and blogs can delete them.
+<p>This project is a full-stack web application developed using React, Express.js, MongoDB, Mongoose, Redux Toolkit, React Router DOM, React Bootstrap, Axios, Bcrypt, and JSON Web Token (JWT). It allows users to create and list blogs and notes. Users can log in to create notes and blogs, which are then associated with their accounts. In the user panel, users can see the notes and blogs they have created. Only the users who created the notes and blogs can delete them.
 </p>
 <br/>
 
 <h2>Features</h2>
 
-User authentication with JWT
+- User authentication: Users can sign up, log in, and log out securely using bcrypt for password hashing and jsonwebtoken for token-based authentication.
+- CRUD operations: Users can create, read, update, and delete both notes and blog posts.
+- User-specific data: Notes and blog posts are associated with the user who created them, ensuring that users can only manage their own content.
+- Responsive design: The application is designed to be responsive and accessible across different devices and screen sizes, thanks to React Bootstrap.
+- Protected routes: Certain routes are protected and can only be accessed by authenticated users.
 
-CRUD operations for notes and blogs
-
-User-specific note and blog listing
-
-Responsive design using React Bootstrap
 <br/>
 <br/>
 
