@@ -1,0 +1,11 @@
+DELETE  http://localhost:3001/api/blogs/6 
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiaWQiOiI2NWY0Yzg3ZTFhYzdhNmVhNzc3NGM2MjkiLCJpYXQiOjE3MTA2NzE3NTQsImV4cCI6MTcxMDY3NTM1NH0.GqmaoAt-LTs7XoO2wfcl4O8L3oPdoz0Wuvpg7-nqthE
+
+{ 
+    "id": 2,
+    "title": "Title admin 2",
+    "author": "Author admin",
+    "url": "https://www.youtube.com",
+    "likes": 4
+}
