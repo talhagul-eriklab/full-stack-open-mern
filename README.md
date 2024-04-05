@@ -50,7 +50,7 @@ Install dependencies for both the client and server:
 
 <h3>Set up environment variables:</h3>
 
-Create a .env file in the root directory with the following variables:
+Create a .env file in the backend root directory with the following variables:
 
 PORT=3001<br/>
 MONGODB_URI=your_mongodb_connection_string<br/>
@@ -64,7 +64,7 @@ Start the client:
 
 6- cd ../client && npm start
 
-Access the application in your browser at http://localhost:3000.
+Access the application in your browser at http://localhost:3001.
 <br/>
 <br/>
 
