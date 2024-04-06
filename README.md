@@ -37,7 +37,7 @@ To run this application locally, follow these steps:
 
 Clone the repository:
 
-1- git clone https://github.com/talhagul-eriklab/full-stack-open-mern.git
+1- git clone https://github.com/talhaagull/full-stack-open-mern.git
 
 2- cd project
 
